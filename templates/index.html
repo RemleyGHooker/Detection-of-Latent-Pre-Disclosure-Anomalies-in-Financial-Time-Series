@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insider Trading Detection System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url_for('index') }}">
+                <i class="fas fa-chart-line me-2"></i>
+                Insider Trading Detection
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                <a class="nav-link" href="{{ url_for('dashboard') }}">Dashboard</a>
+                <a class="nav-link" href="{{ url_for('reports') }}">Reports</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        {% if error %}
+        <div class="alert alert-danger" role="alert">
+            <i class="fas fa-exclamation-triangle me-2"></i>
+            {{ error }}
+        </div>
+        {% endif %}
+
+        <div class="row">
+            <div class="col-12">
+                <div class="hero-section text-center py-5 mb-5">
+                    <h1 class="display-4 mb-3">
+                        <i class="fas fa-shield-alt text-primary me-3"></i>
+                        Insider Trading Detection System
+                    </h1>
+                    <p class="lead text-muted mb-4">
+                        Advanced anomaly detection and machine learning for identifying potential insider trading patterns
+                    </p>
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="card shadow">
+                                <div class="card-body">
+                                    <h5 class="card-title">Start Analysis</h5>
+                                    <p class="card-text">Select stocks to analyze for potential insider trading patterns</p>
+                                    
+                                    <div class="mb-3">
+                                        <label for="symbolSelect" class="form-label">Select Symbols</label>
+                                        <select id="symbolSelect" class="form-select" multiple>
+                                            {% for symbol in config.data.symbols %}
+                                            <option value="{{ symbol }}" selected>{{ symbol }}</option>
+                                            {% endfor %}
+                                        </select>
+                                        <div class="form-text">Hold Ctrl/Cmd to select multiple symbols</div>
+                                    </div>
+                                    
+                                    <button id="startAnalysis" class="btn btn-primary btn-lg">
+                                        <i class="fas fa-play me-2"></i>
+                                        Start Analysis
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-search-plus fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Anomaly Detection</h5>
+                            <p class="card-text">
+                                Uses multiple machine learning algorithms including Isolation Forest 
+                                and Local Outlier Factor to detect unusual trading patterns.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-brain fa-3x text-success mb-3"></i>
+                            <h5 class="card-title">Pattern Recognition</h5>
+                            <p class="card-text">
+                                Identifies specific insider trading patterns such as unusual volume 
+                                before price movements and coordinated trading activities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chart-bar fa-3x text-warning mb-3"></i>
+                            <h5 class="card-title">Real-time Monitoring</h5>
+                            <p class="card-text">
+                                Provides real-time analysis and alerts for potential insider 
+                                trading activities with comprehensive reporting.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fas fa-info-circle me-2"></i>System Status</h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="systemStatus" class="row">
+                            <div class="col-md-4">
+                                <div class="status-item">
+                                    <strong>Status:</strong> 
+                                    <span id="statusIndicator" class="badge bg-secondary">Loading...</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="status-item">
+                                    <strong>Analysis Available:</strong> 
+                                    <span id="analysisIndicator" class="badge bg-secondary">Loading...</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="status-item">
+                                    <strong>Last Update:</strong> 
+                                    <span id="lastUpdate">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Modal -->
+    <div class="modal fade" id="loadingModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center p-4">
+                    <div class="spinner-border text-primary mb-3" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <h5>Running Analysis...</h5>
+                    <p class="text-muted">This may take several minutes depending on the number of symbols selected.</p>
+                    <div id="analysisProgress" class="progress mt-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" 
+                             role="progressbar" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+    <script>
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            updateSystemStatus();
+            
+            // Start analysis button
+            document.getElementById('startAnalysis').addEventListener('click', function() {
+                const selectedSymbols = Array.from(document.getElementById('symbolSelect').selectedOptions)
+                    .map(option => option.value);
+                
+                if (selectedSymbols.length === 0) {
+                    alert('Please select at least one symbol to analyze.');
+                    return;
+                }
+                
+                startAnalysis(selectedSymbols);
+            });
+            
+            // Update status every 30 seconds
+            setInterval(updateSystemStatus, 30000);
+        });
+        
+        function updateSystemStatus() {
+            fetch('/api/status')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('statusIndicator').className = 'badge bg-success';
+                    document.getElementById('statusIndicator').textContent = 'Ready';
+                    
+                    document.getElementById('analysisIndicator').className = 
+                        data.analysis_available ? 'badge bg-success' : 'badge bg-warning';
+                    document.getElementById('analysisIndicator').textContent = 
+                        data.analysis_available ? 'Available' : 'Not Available';
+                    
+                    document.getElementById('lastUpdate').textContent = 
+                        new Date(data.timestamp).toLocaleString();
+                })
+                .catch(error => {
+                    document.getElementById('statusIndicator').className = 'badge bg-danger';
+                    document.getElementById('statusIndicator').textContent = 'Error';
+                    console.error('Error updating status:', error);
+                });
+        }
+        
+        function startAnalysis(symbols) {
+            const modal = new bootstrap.Modal(document.getElementById('loadingModal'));
+            modal.show();
+            
+            // Simulate progress
+            let progress = 0;
+            const progressBar = document.querySelector('#analysisProgress .progress-bar');
+            const progressInterval = setInterval(() => {
+                progress += Math.random() * 15;
+                if (progress > 90) progress = 90;
+                progressBar.style.width = progress + '%';
+            }, 1000);
+            
+            fetch('/api/analyze', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ symbols: symbols })
+            })
+            .then(response => response.json())
+            .then(data => {
+                clearInterval(progressInterval);
+                progressBar.style.width = '100%';
+                
+                setTimeout(() => {
+                    modal.hide();
+                    
+                    if (data.success) {
+                        // Redirect to dashboard
+                        window.location.href = '/dashboard';
+                    } else {
+                        alert('Analysis failed: ' + data.error);
+                    }
+                }, 1000);
+            })
+            .catch(error => {
+                clearInterval(progressInterval);
+                modal.hide();
+                alert('Error starting analysis: ' + error.message);
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</body>
+</html>

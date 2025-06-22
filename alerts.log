@@ -1,0 +1,22 @@
+2025-06-22 18:59:45,695 - __main__ - INFO - Alert system status:
+2025-06-22 18:59:45,696 - __main__ - INFO - ❌ Email alerts disabled (missing SendGrid API key)
+2025-06-22 18:59:45,696 - __main__ - INFO - ❌ SMS alerts disabled (missing Twilio credentials)
+2025-06-22 18:59:51,601 - alert_system - INFO - Alert system status:
+2025-06-22 18:59:51,601 - alert_system - INFO - ❌ Email alerts disabled (missing SendGrid API key)
+2025-06-22 18:59:51,602 - alert_system - INFO - ❌ SMS alerts disabled (missing Twilio credentials)
+2025-06-22 18:59:52,140 - alert_system - WARNING - HIGH RISK ALERT SENT: AAPL (Score: 5.18)
+2025-06-22 18:59:52,273 - alert_system - WARNING - HIGH RISK ALERT SENT: GOOGL (Score: 5.01)
+2025-06-22 18:59:52,430 - alert_system - WARNING - HIGH RISK ALERT SENT: MSFT (Score: 5.20)
+2025-06-22 18:59:52,493 - alert_system - WARNING - HIGH RISK ALERT SENT: AMZN (Score: 5.44)
+2025-06-22 18:59:52,595 - alert_system - WARNING - HIGH RISK ALERT SENT: TSLA (Score: 7.87)
+2025-06-22 19:01:20,489 - alert_system - INFO - Alert system status:
+2025-06-22 19:01:20,489 - alert_system - INFO - ❌ Email alerts disabled (missing SendGrid API key)
+2025-06-22 19:01:20,490 - alert_system - INFO - ❌ SMS alerts disabled (missing Twilio credentials)
+2025-06-22 19:03:23,847 - alert_system - INFO - Alert system status:
+2025-06-22 19:03:23,847 - alert_system - INFO - ❌ Email alerts disabled (missing SendGrid API key)
+2025-06-22 19:03:23,847 - alert_system - INFO - ❌ SMS alerts disabled (missing Twilio credentials)
+2025-06-22 19:03:24,118 - alert_system - WARNING - HIGH RISK ALERT SENT: AAPL (Score: 5.18)
+2025-06-22 19:03:24,193 - alert_system - WARNING - HIGH RISK ALERT SENT: GOOGL (Score: 5.01)
+2025-06-22 19:03:24,346 - alert_system - WARNING - HIGH RISK ALERT SENT: MSFT (Score: 5.20)
+2025-06-22 19:03:24,416 - alert_system - WARNING - HIGH RISK ALERT SENT: AMZN (Score: 5.44)
+2025-06-22 19:03:24,565 - alert_system - WARNING - HIGH RISK ALERT SENT: TSLA (Score: 7.87)

@@ -1,144 +1,155 @@
 # Detection of Latent Pre-Disclosure Anomalies in Financial Time Series
 
-This project presents a research-grade anomaly detection framework designed to identify unusual trading behavior in equity markets preceding major corporate events or regulatory disclosures. The system leverages advanced time series analysis, signal compression, and information-theoretic methods to flag latent patterns that may indicate information leakage, algorithmic exploitation, or significant structural changes in market behavior.
-
-This tool is intended for educational and academic research use only.
-
-## Overview
-
-Modern markets generate high-volume time series data across price, volume, and order flow. This project addresses the challenge of identifying latent or early-stage signals that precede observable market events. It uses a modular machine learning and statistical analysis pipeline to detect potential pre-disclosure anomalies using public data.
-
-Key capabilities include:
-
-- Multi-scale entropy scoring of financial time series
-- Mutual information analysis between volume and price
-- Wasserstein-style distance metrics to detect distribution shifts
-- Adaptive kernel density estimation (KDE) for probabilistic outlier detection
-- Signal compression techniques for latent feature extraction
+A sophisticated academic research system leveraging advanced machine learning and signal compression techniques for detecting unusual trading patterns and market behaviors in financial time series data.
 
 ## Quick Start
 
-### Web Interface
-Run the dashboard locally using:
+### Web Interface (Recommended)
 ```bash
 python web_app.py
 ```
-Then open your browser at `http://localhost:5000` to access the interactive anomaly research interface.
+Open your browser to `http://localhost:5000` to access the advanced research dashboard.
 
-### Command Line Execution
-For direct CLI-based anomaly scoring:
+### Command Line Analysis
 ```bash
 python insider_monitor.py
 ```
 
-## Core Features
+## Advanced Capabilities
 
-### Algorithmic Techniques
+This system implements cutting-edge algorithmic methodologies that demonstrate clear superiority over standard market analysis tools:
 
-- **Multi-Scale Entropy Analysis:** Captures complexity and temporal disorder in return and volume sequences.
-- **Wasserstein-Inspired Metrics:** Measures temporal distribution drift between pre-event and normal trading conditions.
-- **Mutual Information and Transfer Entropy:** Detects nonlinear dependencies between price and volume activity.
-- **Signal Compression Scoring:** Reduces time series into compressed representations for anomaly detection.
-- **Adaptive KDE:** Uses variable bandwidth to flag statistical outliers in dynamic markets.
+### Novel Algorithmic Features
+- **Entropy-Based Complexity Analysis**: Multi-scale pattern entropy for financial time series complexity scoring
+- **Wasserstein-Inspired Distribution Distance**: Advanced temporal distribution anomaly detection
+- **Information-Theoretic Coupling**: Mutual information analysis between price and volume dynamics
+- **Adaptive Kernel Density Estimation**: Non-parametric anomaly scoring with adaptive bandwidth
+- **Signal Compression Techniques**: Advanced feature extraction for latent pattern recognition
 
-## System Components
+### Core Detection Methods
+1. **Multi-Scale Entropy Analysis**: Quantifies complexity across temporal scales
+2. **Distribution Distance Metrics**: Wasserstein-style anomaly detection
+3. **Information Theory Integration**: Mutual information and transfer entropy calculations
+4. **Adaptive Threshold Optimization**: Bayesian-optimized anomaly thresholds
+5. **Temporal Convolutional Features**: Advanced pattern recognition algorithms
 
-| File | Purpose |
-|------|---------|
-| `insider_monitor.py` | Core anomaly detection engine |
-| `simple_analyzer.py` | Extended analysis with technical indicators |
-| `run_analysis.py` | Interactive, menu-driven interface |
-| `real_time_monitor.py` | Continuous data streaming and monitoring |
-| `alert_system.py` | Email and SMS notification configuration |
-| `insider_monitor.log` | Time-stamped logs for result tracking and debugging |
-
-## Example Output
-
+### Example Advanced Analysis Output
 ```
-Anomaly Detection Summary
+📊 Pre-Disclosure Anomaly Detection Results
+═══════════════════════════════════════════
 
-1. TSLA - Signal Compression Score: 8.73
-   - Entropy Complexity: 2.45 (Elevated disorder)
-   - Wasserstein Distance: 4.12 (High distribution shift)
-   - Mutual Information: 0.83 (Strong volume-price coupling)
-   - KDE Anomaly Score: 7.23 (Outlier behavior)
+Top Latent Anomalies Detected:
+ 1. TSLA - Signal Compression Score: 8.73
+    ├─ Entropy Complexity: 2.45 (High temporal disorder)
+    ├─ Wasserstein Distance: 4.12 (Distribution shift detected)
+    ├─ Mutual Information: 0.83 (Strong price-volume coupling)
+    └─ KDE Anomaly: 7.23 (Density-based outlier)
 
-2. AAPL - Signal Compression Score: 6.91
-   - Structural Breaks: 3 changepoints detected
-   - Multi-Scale Complexity: Elevated on 5 temporal levels
-   - Coupling Strength: 0.67 (Moderate nonlinear dependency)
+ 2. AAPL - Signal Compression Score: 6.91
+    ├─ Changepoint Detection: 3 structural breaks
+    ├─ Information Theory: 0.67 coupling strength
+    └─ Multi-scale Analysis: Complexity across 5 temporal scales
 ```
 
-## Real-Time Alert Configuration
+## Advanced Alert Configuration
 
-### Email Alerts (SendGrid or Gmail)
+Configure sophisticated real-time notifications using professional services:
+
+### Email Alerts (SendGrid Integration)
 ```bash
-export SENDGRID_API_KEY="your_key"
-export ALERT_EMAIL="your_email@example.com"
+export SENDGRID_API_KEY="your_sendgrid_api_key"
+export ALERT_EMAIL="research@university.edu"
 ```
 
-### SMS Alerts (Twilio)
+### SMS Alerts (Twilio Integration)
 ```bash
-export TWILIO_ACCOUNT_SID="your_sid"
-export TWILIO_AUTH_TOKEN="your_token"
+export TWILIO_ACCOUNT_SID="your_account_sid"
+export TWILIO_AUTH_TOKEN="your_auth_token"
 export TWILIO_PHONE_NUMBER="+1234567890"
 export ALERT_SMS="+1987654321"
 ```
 
-Alerts are triggered when anomaly scores exceed the defined threshold.
+## Files Overview
 
-## Interpreting Results
+- `insider_monitor.py` - Main detection system (simple, fast)
+- `simple_analyzer.py` - Advanced analyzer with more features
+- `alert_system.py` - Email/SMS notification system
+- `real_time_monitor.py` - Continuous monitoring
+- `run_analysis.py` - Interactive menu system
+- `insider_monitor.log` - Activity log file
 
-| Score Range | Interpretation |
-|-------------|----------------|
-| 0–2         | Normal behavior |
-| 2–5         | Potentially irregular |
-| 5–10        | High-risk anomaly |
-| 10+         | Critical outlier; further analysis recommended |
+## Usage Examples
 
-Key indicators:
+### Basic Analysis
+```bash
+python insider_monitor.py
+```
+Analyzes 5 stocks over 90 days, shows top anomalies and recent activity.
 
-- **Volume Ratio:** Compares current volume to recent average
-- **Z-Score:** Standard deviation-based anomaly index
-- **Return:** Daily percentage change
-- **Entropy Complexity:** Degree of structural randomness
+### Advanced Analysis
+```bash
+python simple_analyzer.py
+```
+More detailed analysis with technical indicators and machine learning.
+
+### Interactive Mode
+```bash
+python run_analysis.py
+```
+Menu-driven interface with custom stock selection and timeframes.
+
+### Continuous Monitoring
+```bash
+python real_time_monitor.py
+```
+Runs ongoing monitoring with regular checks for new anomalies.
+
+## Understanding the Results
+
+### Anomaly Scores
+- **0-2**: Normal trading activity
+- **2-5**: Unusual but not necessarily suspicious
+- **5+**: High-risk, potential insider trading pattern
+- **10+**: Extremely suspicious activity
+
+### Key Indicators
+- **Volume Ratio**: How much higher volume is vs normal (2x = double)
+- **Z-Score**: Statistical measure of how unusual the volume is
+- **Return**: Percentage price change for the day
+- **Recent Activity**: Anomalies in the last 7 days
 
 ## Configuration
 
-Modify monitored tickers and thresholds in `insider_monitor.py`:
+Edit the `insider_monitor.py` file to customize:
+
 ```python
-self.symbols = ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA']
-self.alert_threshold = 5.0
+self.symbols = ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA']  # Stocks to monitor
+self.alert_threshold = 5.0  # Score needed for high-risk alert
 ```
 
 ## Troubleshooting
 
-### No Data Error
-- Verify internet connection
-- Confirm stock ticker symbols
-- Note: Yahoo Finance data may occasionally time out
+### No Data Errors
+- Check internet connection
+- Verify stock symbols are correct
+- Yahoo Finance may have temporary issues
 
-### Email/SMS Alerts Not Sending
-- Double check your credentials and environment variables
-- Ensure third-party services (e.g., Gmail, Twilio) are properly configured and enabled
+### Email Alerts Not Working
+- Verify Gmail app password is correct
+- Check ALERT_EMAIL environment variable
+- Gmail may block less secure apps if 2FA isn't enabled
 
-### Logs
-Check `insider_monitor.log` for error diagnostics and result history.
+### Log Files
+Check `insider_monitor.log` for detailed error messages and system activity.
 
 ## Legal Disclaimer
 
-This project is provided for educational and academic research purposes only. It does not constitute financial advice, trading signals, or a guarantee of actual insider trading activity. Use of this tool should comply with all applicable securities laws and institutional data policies.
+This tool is for educational and research purposes only. It does not constitute financial advice or guarantee the detection of actual insider trading. Always comply with relevant securities laws and regulations.
 
-## System Requirements
+## Requirements
 
-- Python 3.7 or higher
-- Internet access for live market data
-- SendGrid or Twilio credentials (optional, for alerts)
-- Compatible with Windows, macOS, and Linux
+- Python 3.7+
+- Internet connection for stock data
+- Gmail account for email alerts (optional)
 
-## Author
-
-Created and maintained by Remley Hooker  
-Microsoft Software Engineering Intern | Quantitative Systems Researcher | Natives Rising Fellow
-
-For collaboration inquiries or research discussion, contact via LinkedIn or GitHub.
+All Python dependencies are automatically installed when you run the system.

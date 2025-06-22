@@ -1,0 +1,246 @@
+2025-06-22 17:51:15,367 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.25:5000
+2025-06-22 17:51:15,367 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-22 17:53:03,968 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.25:5000
+2025-06-22 17:53:03,968 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-22 17:53:12,650 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 17:53:12] "GET / HTTP/1.1" 200 -
+2025-06-22 17:53:12,676 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 17:53:12] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-06-22 17:53:12,679 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 17:53:12] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-22 17:53:12,879 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 17:53:12] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 17:53:12,880 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 17:53:12] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:07:41,154 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:07:41] "GET / HTTP/1.1" 200 -
+2025-06-22 18:07:41,275 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:07:41] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-22 18:07:41,443 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:07:41] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-06-22 18:07:41,716 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:07:41] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:07:41,721 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:07:41] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:07:42,791 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:07:42] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:07:43,864 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:07:43] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:07:44,932 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:07:44] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:08:11,933 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:08:11] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:08:12,006 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:08:12] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:08:13,000 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:08:13] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:08:14,068 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:08:14] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:08:15,134 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:08:15] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:08:41,923 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:08:41] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:08:41,990 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:08:41] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:08:43,061 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:08:43] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:08:44,127 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:08:44] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:08:45,196 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:08:45] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:09:11,916 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:11] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:09:11,919 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:11] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:09:12,984 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:12] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:09:14,053 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:14] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:09:15,123 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:15] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:09:41,909 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:41] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:09:42,004 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:42] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:09:43,159 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:43] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:09:44,228 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:44] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:09:45,296 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:45] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:09:57,560 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:57] "GET / HTTP/1.1" 200 -
+2025-06-22 18:09:57,918 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-22 18:09:58,009 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:58] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-06-22 18:09:58,084 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:58] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:09:58,091 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:09:58] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:27:37,517 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:27:37] "GET / HTTP/1.1" 200 -
+2025-06-22 18:27:37,639 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:27:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-22 18:27:37,835 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:27:37] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-06-22 18:27:38,083 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:27:38] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:27:38,088 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:27:38] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:27:39,147 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:27:39] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:27:40,215 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:27:40] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:27:41,527 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:27:41] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:27:42,477 - utils - INFO - Starting analysis for symbols: ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA', 'NVDA', 'META', 'NFLX', 'ORCL', 'CRM', 'ADBE', 'PYPL', 'INTC', 'AMD', 'UBER', 'SPOT']
+2025-06-22 18:27:42,477 - utils - INFO - Starting insider trading detection analysis...
+2025-06-22 18:27:42,477 - utils - INFO - Collecting stock data...
+2025-06-22 18:27:43,270 - insider_trading_detector - INFO - Fetched 500 records for AAPL
+2025-06-22 18:27:43,565 - insider_trading_detector - INFO - Fetched 500 records for GOOGL
+2025-06-22 18:27:43,888 - insider_trading_detector - INFO - Fetched 500 records for MSFT
+2025-06-22 18:27:44,265 - insider_trading_detector - INFO - Fetched 500 records for AMZN
+2025-06-22 18:27:44,556 - insider_trading_detector - INFO - Fetched 500 records for TSLA
+2025-06-22 18:27:44,835 - insider_trading_detector - INFO - Fetched 500 records for NVDA
+2025-06-22 18:27:45,061 - insider_trading_detector - INFO - Fetched 500 records for META
+2025-06-22 18:27:45,498 - insider_trading_detector - INFO - Fetched 500 records for NFLX
+2025-06-22 18:27:45,763 - insider_trading_detector - INFO - Fetched 500 records for ORCL
+2025-06-22 18:27:46,118 - insider_trading_detector - INFO - Fetched 500 records for CRM
+2025-06-22 18:27:46,496 - insider_trading_detector - INFO - Fetched 500 records for ADBE
+2025-06-22 18:27:46,864 - insider_trading_detector - INFO - Fetched 500 records for PYPL
+2025-06-22 18:27:47,243 - insider_trading_detector - INFO - Fetched 500 records for INTC
+2025-06-22 18:27:47,498 - insider_trading_detector - INFO - Fetched 500 records for AMD
+2025-06-22 18:27:47,942 - insider_trading_detector - INFO - Fetched 500 records for UBER
+2025-06-22 18:27:48,279 - insider_trading_detector - INFO - Fetched 500 records for SPOT
+2025-06-22 18:27:48,379 - utils - INFO - Collecting market data...
+2025-06-22 18:27:48,699 - utils - INFO - Engineering features...
+2025-06-22 18:27:48,872 - insider_trading_detector - INFO - Generated 41 features for 8000 observations
+2025-06-22 18:27:48,873 - utils - INFO - Detecting anomalies...
+2025-06-22 18:27:49,261 - utils - ERROR - Error during analysis: Length of values (7984) does not match length of index (8000)
+2025-06-22 18:27:49,263 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:27:49] "[35m[1mPOST /api/analyze HTTP/1.1[0m" 500 -
+2025-06-22 18:28:08,285 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:28:08] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:28:08,286 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:28:08] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:28:09,350 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:28:09] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:28:10,665 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:28:10] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:28:11,738 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:28:11] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:28:37,250 - utils - INFO - Starting analysis for symbols: ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA', 'NVDA', 'META', 'NFLX', 'ORCL', 'CRM', 'ADBE', 'PYPL', 'INTC', 'AMD', 'UBER', 'SPOT']
+2025-06-22 18:28:37,250 - utils - INFO - Starting insider trading detection analysis...
+2025-06-22 18:28:37,250 - utils - INFO - Collecting stock data...
+2025-06-22 18:28:37,272 - insider_trading_detector - INFO - Fetched 500 records for AAPL
+2025-06-22 18:28:37,388 - insider_trading_detector - INFO - Fetched 500 records for GOOGL
+2025-06-22 18:28:37,507 - insider_trading_detector - INFO - Fetched 500 records for MSFT
+2025-06-22 18:28:37,624 - insider_trading_detector - INFO - Fetched 500 records for AMZN
+2025-06-22 18:28:37,737 - insider_trading_detector - INFO - Fetched 500 records for TSLA
+2025-06-22 18:28:37,860 - insider_trading_detector - INFO - Fetched 500 records for NVDA
+2025-06-22 18:28:37,975 - insider_trading_detector - INFO - Fetched 500 records for META
+2025-06-22 18:28:38,088 - insider_trading_detector - INFO - Fetched 500 records for NFLX
+2025-06-22 18:28:38,204 - insider_trading_detector - INFO - Fetched 500 records for ORCL
+2025-06-22 18:28:38,269 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:28:38] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:28:38,270 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:28:38] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:28:38,321 - insider_trading_detector - INFO - Fetched 500 records for CRM
+2025-06-22 18:28:38,435 - insider_trading_detector - INFO - Fetched 500 records for ADBE
+2025-06-22 18:28:38,548 - insider_trading_detector - INFO - Fetched 500 records for PYPL
+2025-06-22 18:28:38,665 - insider_trading_detector - INFO - Fetched 500 records for INTC
+2025-06-22 18:28:38,779 - insider_trading_detector - INFO - Fetched 500 records for AMD
+2025-06-22 18:28:38,893 - insider_trading_detector - INFO - Fetched 500 records for UBER
+2025-06-22 18:28:39,006 - insider_trading_detector - INFO - Fetched 500 records for SPOT
+2025-06-22 18:28:39,107 - utils - INFO - Collecting market data...
+2025-06-22 18:28:39,122 - utils - INFO - Engineering features...
+2025-06-22 18:28:39,300 - insider_trading_detector - INFO - Generated 41 features for 8000 observations
+2025-06-22 18:28:39,301 - utils - INFO - Detecting anomalies...
+2025-06-22 18:28:39,339 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:28:39] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:28:39,678 - utils - ERROR - Error during analysis: Length of values (7984) does not match length of index (8000)
+2025-06-22 18:28:39,680 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:28:39] "[35m[1mPOST /api/analyze HTTP/1.1[0m" 500 -
+2025-06-22 18:28:40,584 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:28:40] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:28:47,343 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:28:47] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:29:08,274 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:08] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:29:08,373 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:08] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:29:09,437 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:09] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:29:10,670 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:10] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:29:11,736 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:11] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:29:18,204 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:18] "GET / HTTP/1.1" 200 -
+2025-06-22 18:29:18,336 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-22 18:29:18,478 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:18] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-06-22 18:29:18,745 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:18] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:29:18,749 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:18] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:29:19,705 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:19] "GET /dashboard HTTP/1.1" 200 -
+2025-06-22 18:29:19,785 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-22 18:29:19,835 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:19] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-06-22 18:29:20,150 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:20] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:29:21,391 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:21] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:29:22,457 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:22] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:29:23,529 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:23] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:29:50,345 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:50] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:29:51,408 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:51] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:29:52,475 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:52] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:29:53,541 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:29:53] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:30:32,593 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.25:5000
+2025-06-22 18:30:32,593 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-22 18:30:33,016 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:30:33] "GET / HTTP/1.1" 200 -
+2025-06-22 18:30:33,333 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:30:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-22 18:30:33,415 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:30:33] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-06-22 18:30:33,676 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:30:33] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:30:33,679 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:30:33] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:30:34,845 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:30:34] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:30:36,999 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:30:36] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:30:38,830 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:30:38] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:30:42,616 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 18:30:42] "GET / HTTP/1.1" 200 -
+2025-06-22 18:30:42,625 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 18:30:42] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-06-22 18:30:42,625 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 18:30:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-22 18:30:42,737 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 18:30:42] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:30:42,738 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 18:30:42] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:31:04,035 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:31:04] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:31:34,092 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:31:34] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:32:04,021 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:32:04] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:32:34,013 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:32:34] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:33:04,066 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:33:04] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:33:34,103 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:33:34] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:34:54,273 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:34:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:35:54,262 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:35:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:36:54,383 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:36:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:37:54,224 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:37:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:38:54,269 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:38:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:39:54,277 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:39:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:40:54,484 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:40:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:41:54,265 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:41:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:42:54,144 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:42:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:43:54,373 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:43:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:44:54,202 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:44:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:45:54,282 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:45:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:46:54,384 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:46:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:47:54,259 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:47:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:48:54,221 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:48:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:49:54,296 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:49:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:50:54,141 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:50:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:51:54,165 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:51:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:52:54,338 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:52:54] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:53:02,524 - utils - INFO - Starting analysis for symbols: ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA', 'NVDA', 'META', 'NFLX', 'ORCL', 'CRM', 'ADBE', 'PYPL', 'INTC', 'AMD', 'UBER', 'SPOT']
+2025-06-22 18:53:02,524 - utils - INFO - Starting insider trading detection analysis...
+2025-06-22 18:53:02,524 - utils - INFO - Collecting stock data...
+2025-06-22 18:53:02,967 - insider_trading_detector - INFO - Fetched 500 records for AAPL
+2025-06-22 18:53:03,318 - insider_trading_detector - INFO - Fetched 500 records for GOOGL
+2025-06-22 18:53:03,578 - insider_trading_detector - INFO - Fetched 500 records for MSFT
+2025-06-22 18:53:03,789 - insider_trading_detector - INFO - Fetched 500 records for AMZN
+2025-06-22 18:53:03,829 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:53:03] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:53:03,846 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:53:03] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:53:04,034 - insider_trading_detector - INFO - Fetched 500 records for TSLA
+2025-06-22 18:53:04,318 - insider_trading_detector - INFO - Fetched 500 records for NVDA
+2025-06-22 18:53:04,501 - insider_trading_detector - INFO - Fetched 500 records for META
+2025-06-22 18:53:04,673 - insider_trading_detector - INFO - Fetched 500 records for NFLX
+2025-06-22 18:53:04,894 - insider_trading_detector - INFO - Fetched 500 records for ORCL
+2025-06-22 18:53:04,908 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:53:04] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:53:05,084 - insider_trading_detector - INFO - Fetched 500 records for CRM
+2025-06-22 18:53:05,267 - insider_trading_detector - INFO - Fetched 500 records for ADBE
+2025-06-22 18:53:05,530 - insider_trading_detector - INFO - Fetched 500 records for PYPL
+2025-06-22 18:53:05,785 - insider_trading_detector - INFO - Fetched 500 records for INTC
+2025-06-22 18:53:05,972 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:53:05] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:53:05,999 - insider_trading_detector - INFO - Fetched 500 records for AMD
+2025-06-22 18:53:06,205 - insider_trading_detector - INFO - Fetched 500 records for UBER
+2025-06-22 18:53:06,376 - insider_trading_detector - INFO - Fetched 500 records for SPOT
+2025-06-22 18:53:06,476 - utils - INFO - Collecting market data...
+2025-06-22 18:53:06,653 - utils - INFO - Engineering features...
+2025-06-22 18:53:06,990 - insider_trading_detector - INFO - Generated 41 features for 8000 observations
+2025-06-22 18:53:06,990 - utils - INFO - Detecting anomalies...
+2025-06-22 18:53:07,050 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:53:07] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:53:07,559 - insider_trading_detector - INFO - Detected 0.00% anomalies in dataset
+2025-06-22 18:53:07,560 - utils - INFO - Recognizing patterns...
+2025-06-22 18:53:09,890 - utils - INFO - Training ML models...
+2025-06-22 18:53:09,893 - insider_trading_detector - WARNING - Insufficient training data for ML models
+2025-06-22 18:53:09,893 - utils - INFO - Applying ML predictions...
+2025-06-22 18:53:09,896 - utils - ERROR - Error during analysis: This StandardScaler instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-06-22 18:53:09,897 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:53:09] "[35m[1mPOST /api/analyze HTTP/1.1[0m" 500 -
+2025-06-22 18:53:33,968 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:53:33] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:53:33,970 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:53:33] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:53:35,033 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:53:35] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:53:36,098 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:53:36] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:53:37,163 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:53:37] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:54:03,917 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:54:03] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:54:03,945 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:54:03] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:54:04,988 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:54:04] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:54:06,054 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:54:06] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:54:07,123 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:54:07] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:54:33,860 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:54:33] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:54:33,933 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:54:33] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:54:34,995 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:54:34] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:54:36,060 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:54:36] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:54:37,128 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:54:37] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:55:03,998 - werkzeug - INFO - 172.31.128.25 - - [22/Jun/2025 18:55:03] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 18:56:49,513 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.25:5000
+2025-06-22 18:56:49,515 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-22 18:58:36,592 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 18:58:36] "GET / HTTP/1.1" 200 -
+2025-06-22 18:58:36,617 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 18:58:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-22 18:58:36,617 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 18:58:36] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-06-22 18:58:36,765 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 18:58:36] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 18:58:36,767 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 18:58:36] "GET /api/status HTTP/1.1" 200 -
+2025-06-22 19:00:23,994 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 19:00:23] "GET / HTTP/1.1" 200 -
+2025-06-22 19:00:24,008 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 19:00:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-22 19:00:24,009 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 19:00:24] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-06-22 19:00:24,034 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 19:00:24] "[31m[1mGET /api/report HTTP/1.1[0m" 400 -
+2025-06-22 19:00:24,035 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 19:00:24] "GET /api/status HTTP/1.1" 200 -
